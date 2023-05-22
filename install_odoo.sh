@@ -3,7 +3,7 @@ echo "Que version de Odoo quiere instalar:"
 # shellcheck disable=SC2162
 read odoo_version
 
-Echo "Actualizando el sistema"
+echo "Actualizando el sistema"
 sudo apt update
 sudo apt upgrade -y
 
